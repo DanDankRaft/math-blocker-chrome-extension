@@ -40,7 +40,7 @@ function siteMatches(site){
     var i = 0; // siteArr
     var j = 0; // currentUrlArr;
     while (j < currentUrlArr.length && i < siteArr.length){
-        if (siteArr[i] === currentUrlArr[j]){
+        if (siteArr.includes(currentUrlArr)){
             i++;
         }
         j++;
